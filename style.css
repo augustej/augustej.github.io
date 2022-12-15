@@ -7,7 +7,9 @@
     --mdgrey:rgb(33,39,47);
     --dkgrey:rgb(23,28,35);
     box-sizing: border-box;
-    --font:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* --font:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    --font:'Josefin Sans', sans-serif;
+    font-weight: 300;
 }
 
 body {
@@ -27,6 +29,11 @@ a:hover{
     color:rgba(255, 255, 255, 0.5);
     cursor: pointer;
 
+}
+li, ul, p{
+    padding: 0.2em 0;
+    font-size: 1.05em;
+    line-height: 1.5em;
 }
 
 h2{
@@ -49,10 +56,6 @@ h2{
 .btn:hover, .buttons--change-project .next-pic:hover{
     background: linear-gradient(90deg, var(--grey),var(--dkgrey));
     cursor: pointer;
-}
-
-.small-text{
-    font-size: 0.8em;
 }
 
 .colored-text{
@@ -79,6 +82,7 @@ h2{
 }
 
 .navigation{
+    font-weight: 500;
     padding: 0.5rem 4rem;
 	position: sticky;
 	top: 0;
@@ -414,9 +418,9 @@ h2{
     margin: 1em auto;
 }
 .buttons--change-project > *{
-    min-width: 80px;
-    width: 20%;
-    font-size: 0.9em;
+    min-width: 100px;
+    width: 25%;
+    font-size: 1.2em;
 }
 .buttons--change-project .next-pic{
     background: linear-gradient(270deg, var(--yellowelectric),var(--electric));
@@ -522,6 +526,9 @@ footer{
     .picture-buttons > * {
         font-size: 1em;
     }
+    .change-project.btn{
+        font-size: 1em;
+    }
 }
 
 @media (max-width: 576px){    
@@ -565,6 +572,11 @@ footer{
     }
     .project--image{
         max-width: 265px;
+    }
+    .change-project.btn{
+        font-size: 0.9em;
+        min-width: 70px;
+        padding: 0.3em;
     }
 }
 
