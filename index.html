@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/4d9826a017.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/style.css" rel="stylesheet">
+    <title>Auguste Jan Portfolio</title>
+    
+</head>
+<body>
+    <div class="modal hidden">
+        <button class="close-modal btn">X</button>
+    </div>
+    <div class="picture-modal hidden">
+        <img src=""/>
+        <button class="close-picture">X</button>
+        <div class="picture-buttons">
+            <button class="change-project prev-pic">&lt;</button>
+            <button class="change-project next-pic">&gt;</button>
+        </div>
+    </div>
+
+    <div class="content-container">
+
+        <nav class="navigation">
+            <ul>
+                <li class="nav--logo"> 
+                    <p>
+                        <span class="nav--name-initials">A.J.</span>
+                        <span>Portfolio</span>
+                    </p>                    
+                </li>
+                <li><a name="home">Home</a></li>
+                <li><a name="education">Education</a></li>
+                <li><a name="projects">Projects</a></li>
+            </ul>
+        </nav>
+        <section id="home" class="home--container">
+            <div class="home--text-side">
+                <p class="about-me">Hello, 
+                    <span class="colored-text">I'm</span> 
+                    <span class="about-me--highlght">Augustė Janickaitė</span>
+                    Beginner frontend developer
+                </p>
+                <p>Enjoy working with Vanilla JS, React and CSS! Can't wait for new challenges and opportunities.</p>
+                <div class="home--container--my-contacts">
+                    <a href="mailto:ajanickaite@gmail.com">
+                        <button class="btn contact-me">Let's talk!</button>
+                    </a>
+                    <div class="icon-container">
+                        <p>Check Out My</p>
+                        <i class="fa-brands fa-square-github"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="home--image-side">
+                <div class="polygon--boxshadow">
+                    <div class="polygon-part"></div>
+                </div>
+                <img class="portfolio-pic" src="./portfolio1.png" alt="face of Auguste Janickaite"/>
+            </div>
+        </section>
+        <section id="education" class="education--container">
+            <h2>Education<span class="colored-text"> & </span>Experience</h2>
+            <div class="card-line top-line"></div>
+            <div class="card-line bottom-line"></div>
+            <div class="card-line lower-top-line"></div>
+            <div class="card-line lower-bottom-line"></div>
+            <div class="education--cards">
+                <div class="card">
+                    <i class="fa-solid fa-school"></i>                    
+                    <h3>KTU gymnasium</h3>
+                    <h4>2009-2013</h4>
+                    <div class="card-overflow">
+                        <p class='text-highlight'>Kaunas University of <span class="no-wrap">Technology Gymnasium</span></p>
+                        <p>Graduated from KTUg</p>    
+                        <ul class="text-highlight">Foreign languages: 
+                                <li>English (C1)</li> 
+                                <li>German (B1/B2)</li>
+                            </ul>
+                            <ul class="text-highlight">Final exams:
+                                <li>Lithuanian - 83%</li>
+                                <li>Chemistry - 97%</li>
+                                <li> Math - 89%</li>
+                                <li>Biology - 95%</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-staff-snake"></i>                    
+                    <h3>LSMU university</h3>
+                    <h4>2013-2019</h4>
+                    <div class="card-overflow">
+                        <p class='text-highlight'>Lithuanian University of <span class="no-wrap">Health Sciences</span> (LSMU)</p>
+                        <p>Master's degree in Medicine. Graduated with honours</p>
+                            <ul class="text-highlight">Preclinical studies (3y)
+                                    <li class="small-text">Modules of Medicine</li>
+                                    <li class="small-text">Physics</li>
+                                    <li class="small-text">Statistical Math</li>
+                                    <li class="small-text">Chemistry</li>
+                                    <li class="small-text">Phylosophy</li>
+                                    <li class="small-text">English</li>
+                            </ul>
+                            <ul class="text-highlight">Clinical studies (2.5y)</ul>
+                            <ul class="text-highlight">Practice
+                                <li class="small-text">Internship in Kaunas (6 months)</li>
+                                <li class="small-text">Practice in Mexico (1 month)</li>
+                            </ul>    
+                    </div>
+                </div>
+                <div class="card">
+                    <i class="fa-regular fa-eye"></i>
+                    <h3>Residency</h3>
+                    <h4>2019-2022</h4>
+                    <div class="card-overflow">
+                        <p class='text-highlight'>Residency of Ophthalmology in <span class="no-wrap">Kaunas Clinics</span></p>
+                        <p>Gained Specialty of Ophthalmologist</p>    
+                        <ul class="text-highlight">Work experience: 
+                                <li>3y in Eye Clinic (Covid-19 experience)</li>
+                                <li>3 months in Italy</li>
+                        </ul>
+                        <ul class="text-highlight">Skills gained: 
+                            <li>Communication</li> 
+                            <li>Responsibility</li>
+                            <li>Constant learning</li>
+                            <li>Problem solving</li>
+                            <li>Work ethics</li>
+                            <li>Team work</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-robot"></i>
+                    <h3>CS50</h3>
+                    <h4>2022</h4>
+                    <div class="card-overflow">
+                        <p class='text-highlight'>Harvard's University online course by professor <span class="no-wrap">David Malan</span></p>
+                        <p>Introduction to Computer Science</p>    
+                        <ul class="text-highlight">Course (10 weeks): 
+                                <li>Lecture each week (~2h)</li>
+                                <li>2-3 Tasks after each topic.</li>
+                                <li>Score > 90% of each task</li> 
+                        </ul>
+                        <ul class="text-highlight">Tasks involved: 
+                            <li>Scratch</li> 
+                            <li>C</li>
+                            <li>Python & Flask</li>
+                            <li>SQL</li>
+                            <li>HTML, CSS, JS</li>
+                            <li>Sorting, binary tree, cipher, filters, arrays, algorithms, pointers</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-border-top-left"></i>
+                    <h3>Frontend Masters</h3>
+                    <h4>2022</h4>
+                    <div class="card-overflow">
+                        <p class='text-highlight'>Frontend Masters courses online</p>
+                        <p>Frontend topics analysed in depth</p>    
+                        <ul class="text-highlight">Completed learning paths: 
+                                <li>Beginner learning path</li>
+                                <li>JavaScript topic path</li>
+                                <li>CSS topic path</li>
+                                <li>React.js topic path: in progress</li>
+                        </ul>
+                        <ul class="text-highlight">Lecturers involved: 
+                            <li>Kyle Simpson</li> 
+                            <li>Jen Kramer</li>
+                            <li>Brian Holt</li>
+                            <li>Anjana Vakil</li>
+                            <li>Will Sentance</li>
+                            <li>Others</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-globe"></i>
+                    <h3>All Internet</h3>
+                    <h4>2022</h4>
+                    <div class="card-overflow">
+
+                        <p class='text-highlight'>Various sources from the Internet</p>
+                        <p>Constant progress</p>    
+                        <ul class="text-highlight">Youtube: 
+                                <li>Kevin Powell</li>
+                                <li>Traversy Media</li>
+                                <li>Mosh Hamedani</li>
+                        </ul>
+                        <ul class="text-highlight">Websites: 
+                            <li>FreeCodeCamp</li> 
+                            <li>MDN</li>
+                            <li>W3</li>
+                            <li>Codewars</li>
+                            <li>Frontend Mentors</li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects--container">
+            <h2>Recent <span class="colored-text">Projects</span></h2>
+            <div class="single-project-container">
+                <h3>Project: <span class="colored-text">Savaitės meniu</span></h3>
+                <div class="project--description">
+                    <p><span class="colored-text">Skills used:</span> HTML, CSS, Vanilla JavaScript, Python (Flask backEnd), SQLAchemy.</p>
+                    <p>Everything in this project is <span class="colored-text">my personal code,</span> including the backEnd.</p>
+                    <ul>I created my first project related to meal planning.
+                        <li>User can use CRUD operations on Recipes and Week plan.</li> 
+                        <li>Automaticaly generate groceries list.</li>
+                        <li>Invite others as viewers with active action only on groceries list.</li>
+                    </ul> 
+                    <p>I invite you to try  <a href="http://augustejan.eu.pythonanywhere.com/">my website</a>.</p>
+                    <p><span class="colored-text">Tester account:</span> email: testas@gmail.com | password: testas123</p>
+                </div>
+                <div class="project--image-list">
+                    <img class="project--image visible" src="./Meal-prep-images/calendar.png" alt=""/>
+                    <img class="project--image visible" src="./Meal-prep-images/home.png" alt=""/>
+                    <img class="project--image" src="./Meal-prep-images/recipes.png" alt=""/>
+                    <img class="project--image" src="./Meal-prep-images/single-recipe.png" alt=""/>
+                    <img class="project--image" src="./Meal-prep-images/search.png" alt=""/>
+                    <img class="project--image" src="./Meal-prep-images/groceries.png" alt=""/>
+                </div>
+                <div class="buttons--change-project">
+                    <button class="change-project prev-pic btn">Previous</button>
+                    <button class="change-project next-pic btn ">Next</button>
+                </div>
+            </div>
+            <div class="single-project-container">
+                <h3>Frontend Mentor Challenge: <span class="colored-text">News homepage</span></h3>
+                <div class="project--description">
+                    <p><span class="colored-text">Skills used:</span> HTML, CSS, Vanilla JavaScript</p>
+                    <p>Improving my frontend skills with Frontend Mentor tasks. </p>
+                    <ul>Responsive design required to practise:
+                        <li>CSS grid and flexbox.</li> 
+                        <li>Burger menu.</li>
+                        <li>Mobile-first workflow.</li>
+                    </ul>  
+                    <p>Live website  <a href="https://augustej.github.io/FEnd-Mentor-News-Home/">here</a></p>
+                </div>
+                <div class="project--image-list">
+                    <img class="project--image visible" src="./Frontend Mentor/News-homepage/Screenshot.jpg" alt=""/>
+                    <img class="project--image visible" src="./Frontend Mentor/News-homepage/Screenshot1.jpg" alt=""/>
+                    <img class="project--image visible" src="./Frontend Mentor/News-homepage/Screenshot2.jpg" alt=""/>
+                </div>
+                <div class="buttons--change-project">
+                </div>
+            </div>
+            <div class="single-project-container">
+                <h3>Frontend Mentor Challenge: <span class="colored-text">Todo app</span></h3>
+                <div class="project--description">
+                    <p><span class="colored-text">Skills used:</span> HTML, CSS, Vanilla JavaScript</p>
+                    <p>Improving my frontend skills with Frontend Mentor tasks. </p>
+                    <ul>Responsive design required to practise:
+                        <li>Flexbox.</li> 
+                        <li>Drag and drop.</li>
+                        <li>Gradient effect on border</li>
+                        <li>SVG element size/color changes</li>
+                        <li>Prefered color scheme</li>
+                    </ul>  
+                    <p>Live website  <a href="https://augustej.github.io/FEnd-Mentor-Todo-App/">here</a></p>
+                </div>
+                <div class="project--image-list">
+                    <img class="project--image visible" src="./Frontend Mentor/Todo-app/Screenshot-dark-desktop.jpg" alt=""/>
+                    <img class="project--image visible" src="./Frontend Mentor/Todo-app/Screenshot-light-desktop.jpg" alt=""/>
+                    <img class="project--image " src="./Frontend Mentor/Todo-app/Screenshot-dark-mobile.jpg" alt=""/>
+                    <img class="project--image " src="./Frontend Mentor/Todo-app/Screenshot-light-mobile.jpg" alt=""/>
+                </div>
+                <div class="buttons--change-project">
+                    <button class="change-project prev-pic btn">Previous</button>
+                    <button class="change-project next-pic btn ">Next</button>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>&#169; 2022 Augustė Janickaitė</p>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
