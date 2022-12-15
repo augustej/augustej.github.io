@@ -171,7 +171,8 @@ h2{
     flex-basis: 100%;
 }
 
-.icon-container i {
+.icon-container a {
+    color:white;
     font-size: 2rem;
 }
 
