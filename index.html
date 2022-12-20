@@ -64,7 +64,12 @@
                 <div class="polygon--boxshadow">
                     <div class="polygon-part"></div>
                 </div>
-                <img class="portfolio-pic" src="./portfolio1.jpg" alt="face of Auguste Janickaite"/>
+                <img class="portfolio-pic"                
+                srcset="
+                    ./portfolio-pic/portfolio1_z5dszt_c_scale,w_260.png 260w,
+                    ./portfolio-pic/portfolio1_z5dszt_c_scale,w_565.png 565w,
+                    ./portfolio-pic/portfolio1_z5dszt_c_scale,w_780.png 780w"
+                alt="face of Auguste Janickaite"/>
             </div>
         </section>
         <section id="education" class="education--container">
@@ -222,11 +227,71 @@
                     <p><span class="colored-text">Tester account:</span> email: testas@gmail.com | password: testas123</p>
                 </div>
                 <div class="project--image-list">
-                    <img class="project--image visible" src="./Meal-prep-images/calendar.jpg" alt=""/>
-                    <img class="project--image visible" src="./Meal-prep-images/home.jpg" alt=""/>
-                    <img class="project--image" src="./Meal-prep-images/recipes.jpg" alt=""/>
-                    <img class="project--image" src="./Meal-prep-images/single-recipe.jpg" alt=""/>
-                    <img class="project--image" src="./Meal-prep-images/search.jpg" alt=""/>
+                    <img class="project--image visible" 
+                    sizes=" 
+                        (min-width:576px) 300px,
+                        (min-width:415px) 265px,
+                        200px"
+                    srcset="
+                        ./Meal-prep-images/calendar-srcset/calendar_nltvdx_c_scale,w_300.png 300w,
+                        ./Meal-prep-images/calendar-srcset/calendar_nltvdx_c_scale,w_794.png 794w,
+                        ./Meal-prep-images/calendar-srcset/calendar_nltvdx_c_scale,w_1144.png 1144w,
+                        ./Meal-prep-images/calendar-srcset/calendar_nltvdx_c_scale,w_1450.png 1450w,
+                        ./Meal-prep-images/calendar-srcset/calendar_nltvdx_c_scale,w_1732.png 1732w,
+                        ./Meal-prep-images/calendar-srcset/calendar_nltvdx_c_scale,w_2240.png 2240w"
+                    src="./Meal-prep-images/calendar.jpg" alt=""/>
+                    <img class="project--image visible" 
+                    sizes=" 
+                        (min-width:576px) 300px,
+                        (min-width:415px) 265px,
+                        200px"
+                    srcset="
+                        ./Meal-prep-images/home-srcset/home_ntv3d2_c_scale,w_300.png 300w,
+                        ./Meal-prep-images/home-srcset/home_ntv3d2_c_scale,w_932.png 932w,
+                        ./Meal-prep-images/home-srcset/home_ntv3d2_c_scale,w_1332.png 1332w,
+                        ./Meal-prep-images/home-srcset/home_ntv3d2_c_scale,w_1693.png 1693w,
+                        ./Meal-prep-images/home-srcset/home_ntv3d2_c_scale,w_1980.png 1980w,
+                        ./Meal-prep-images/home-srcset/home_ntv3d2_c_scale,w_2240.png 2240w"
+                    src="./Meal-prep-images/home.jpg" alt=""/>
+                    <img class="project--image" 
+                    sizes=" 
+                        (min-width:576px) 300px,
+                        (min-width:415px) 265px,
+                        200px"
+                    srcset="
+                        ./Meal-prep-images/recipes-srcset/recipes_cvc6od_c_scale,w_300.png 300w,
+                        ./Meal-prep-images/recipes-srcset/recipes_cvc6od_c_scale,w_938.png 938w,
+                        ./Meal-prep-images/recipes-srcset/recipes_cvc6od_c_scale,w_1359.png 1359w,
+                        ./Meal-prep-images/recipes-srcset/recipes_cvc6od_c_scale,w_1701.png 1701w,
+                        ./Meal-prep-images/recipes-srcset/recipes_cvc6od_c_scale,w_1983.png 1983w,
+                        ./Meal-prep-images/recipes-srcset/recipes_cvc6od_c_scale,w_2240.png 2240w"
+                    src="./Meal-prep-images/recipes.jpg" alt=""/>
+                    <img class="project--image" 
+                    sizes=" 
+                        (min-width:576px) 300px,
+                        (min-width:415px) 265px,
+                        200px"
+                    srcset="
+                        ./Meal-prep-images/single-recipe-srcset/single-recipe_ptqilu_c_scale,w_300.png 300w,
+                        ./Meal-prep-images/single-recipe-srcset/single-recipe_ptqilu_c_scale,w_893.png 893w,
+                        ./Meal-prep-images/single-recipe-srcset/single-recipe_ptqilu_c_scale,w_1306.png 1306w,
+                        ./Meal-prep-images/single-recipe-srcset/single-recipe_ptqilu_c_scale,w_1658.png 1658w,
+                        ./Meal-prep-images/single-recipe-srcset/single-recipe_ptqilu_c_scale,w_1954.png 1954w,
+                        ./Meal-prep-images/single-recipe-srcset/single-recipe_ptqilu_c_scale,w_2240.png 2240w"
+                    src="./Meal-prep-images/single-recipe.jpg" alt=""/>
+                    <img class="project--image" 
+                    sizes=" 
+                        (min-width:576px) 300px,
+                        (min-width:415px) 265px,
+                        200px"
+                    srcset="
+                        ./Meal-prep-images/search-srcset/search_yzqvks_c_scale,w_300.png 300w,
+                        ./Meal-prep-images/search-srcset/search_yzqvks_c_scale,w_915.png 915w,
+                        ./Meal-prep-images/search-srcset/search_yzqvks_c_scale,w_1320.png 1320w,
+                        ./Meal-prep-images/search-srcset/search_yzqvks_c_scale,w_1657.png 1657w,
+                        ./Meal-prep-images/search-srcset/search_yzqvks_c_scale,w_1972.png 1972w,
+                        ./Meal-prep-images/search-srcset/search_yzqvks_c_scale,w_2240.png 2240w"
+                    src="./Meal-prep-images/search.jpg" alt=""/>
                 </div>
                 <div class="buttons--change-project">
                     <button class="change-project prev-pic btn">Previous</button>
@@ -246,9 +311,41 @@
                     <p>Live website  <a href="https://augustej.github.io/FEnd-Mentor-News-Home/">here</a></p>
                 </div>
                 <div class="project--image-list">
-                    <img class="project--image visible" src="./Frontend Mentor/News-homepage/Screenshot.jpg" alt=""/>
-                    <img class="project--image visible" src="./Frontend Mentor/News-homepage/Screenshot1.jpg" alt=""/>
-                    <img class="project--image visible" src="./Frontend Mentor/News-homepage/Screenshot2.jpg" alt=""/>
+                    <img class="project--image visible" 
+                    sizes=" 
+                        (min-width:576px) 300px,
+                        (min-width:415px) 265px,
+                        200px"
+                    srcset="
+                        ./Frontend-mentor/News-homepage/Screenshot_srcset/Screenshot_c5krr4_c_scale,w_300.png 300w,
+                        ./Frontend-mentor/News-homepage/Screenshot_srcset/Screenshot_c5krr4_c_scale,w_966.png 966w,
+                        ./Frontend-mentor/News-homepage/Screenshot_srcset/Screenshot_c5krr4_c_scale,w_1431.png 1431w,
+                        ./Frontend-mentor/News-homepage/Screenshot_srcset/Screenshot_c5krr4_c_scale,w_1809.png 1809w,
+                        ./Frontend-mentor/News-homepage/Screenshot_srcset/Screenshot_c5krr4_c_scale,w_2152.png 2152w"   
+                    src="./Frontend-mentor/News-homepage/Screenshot.jpg"
+                     alt=""/>
+                    <img class="project--image visible"
+                    sizes=" 
+                        (min-width:576px) 300px,
+                        (min-width:415px) 265px,
+                        200px"
+                    srcset="
+                    ./Frontend-mentor/News-homepage/Screenshot1_srcset/Screenshot1_vnvr5z_c_scale,w_70.png 70w,
+                    ./Frontend-mentor/News-homepage/Screenshot1_srcset/Screenshot1_vnvr5z_c_scale,w_217.png 217w,
+                    ./Frontend-mentor/News-homepage/Screenshot1_srcset/Screenshot1_vnvr5z_c_scale,w_319.png 319w,
+                    ./Frontend-mentor/News-homepage/Screenshot1_srcset/Screenshot1_vnvr5z_c_scale,w_375.png 375w"
+                    src="./Frontend-mentor/News-homepage/Screenshot1.jpg" alt=""/>
+                    <img class="project--image visible"
+                    sizes=" 
+                        (min-width:576px) 300px,
+                        (min-width:415px) 265px,
+                        200px"
+                    srcset="
+                    ./Frontend-mentor/News-homepage/Screenshot2_srcset/Screenshot2_atn09z_c_scale,w_70.png 70w,
+                    ./Frontend-mentor/News-homepage/Screenshot2_srcset/Screenshot2_atn09z_c_scale,w_229.png 229w,
+                    ./Frontend-mentor/News-homepage/Screenshot2_srcset/Screenshot2_atn09z_c_scale,w_343.png 343w,
+                    ./Frontend-mentor/News-homepage/Screenshot2_srcset/Screenshot2_atn09z_c_scale,w_375.png 375w"
+                    src="./Frontend-mentor/News-homepage/Screenshot2.jpg" alt=""/>
                 </div>
                 <div class="buttons--change-project">
                 </div>
@@ -268,10 +365,56 @@
                     <p>Live website  <a href="https://augustej.github.io/FEnd-Mentor-Todo-App/">here</a></p>
                 </div>
                 <div class="project--image-list">
-                    <img class="project--image visible" src="./Frontend Mentor/Todo-app/Screenshot-dark-desktop.jpg" alt=""/>
-                    <img class="project--image visible" src="./Frontend Mentor/Todo-app/Screenshot-light-desktop.jpg" alt=""/>
-                    <img class="project--image " src="./Frontend Mentor/Todo-app/Screenshot-dark-mobile.jpg" alt=""/>
-                    <img class="project--image " src="./Frontend Mentor/Todo-app/Screenshot-light-mobile.jpg" alt=""/>
+                    <img class="project--image visible"
+                    sizes=" 
+                            (min-width:576px) 300px,
+                            (min-width:415px) 265px,
+                            200px"
+                    srcset="
+                    ./Frontend-mentor/Todo-app/Screenshot-dark-desktop-srcset/Screenshot-dark-desktop_ogxu00_c_scale,w_300.png 300w,
+                    ./Frontend-mentor/Todo-app/Screenshot-dark-desktop-srcset/Screenshot-dark-desktop_ogxu00_c_scale,w_940.png 940w,
+                    ./Frontend-mentor/Todo-app/Screenshot-dark-desktop-srcset/Screenshot-dark-desktop_ogxu00_c_scale,w_1340.png 1340w,
+                    ./Frontend-mentor/Todo-app/Screenshot-dark-desktop-srcset/Screenshot-dark-desktop_ogxu00_c_scale,w_1704.png 1704w,
+                    ./Frontend-mentor/Todo-app/Screenshot-dark-desktop-srcset/Screenshot-dark-desktop_ogxu00_c_scale,w_1988.png 1988w,
+                    ./Frontend-mentor/Todo-app/Screenshot-dark-desktop-srcset/Screenshot-dark-desktop_ogxu00_c_scale,w_2240.png 2240w"
+                    src="./Frontend-mentor/Todo-app/Screenshot-dark-desktop.jpg" alt=""/>
+                    <img class="project--image visible" 
+                    sizes=" 
+                        (min-width:576px) 300px,
+                        (min-width:415px) 265px,
+                        200px"
+                    srcset="
+                    ./Frontend-mentor/Todo-app/Screenshot-light-desktop-srcset/Screenshot-light-desktop_zwkgzc_c_scale,w_300.png 300w,
+                    ./Frontend-mentor/Todo-app/Screenshot-light-desktop-srcset/Screenshot-light-desktop_zwkgzc_c_scale,w_944.png 944w,
+                    ./Frontend-mentor/Todo-app/Screenshot-light-desktop-srcset/Screenshot-light-desktop_zwkgzc_c_scale,w_1368.png 1368w,
+                    ./Frontend-mentor/Todo-app/Screenshot-light-desktop-srcset/Screenshot-light-desktop_zwkgzc_c_scale,w_1711.png 1711w,
+                    ./Frontend-mentor/Todo-app/Screenshot-light-desktop-srcset/Screenshot-light-desktop_zwkgzc_c_scale,w_1984.png 1984w,
+                    ./Frontend-mentor/Todo-app/Screenshot-light-desktop-srcset/Screenshot-light-desktop_zwkgzc_c_scale,w_2240.png 2240w"
+                    src="./Frontend-mentor/Todo-app/Screenshot-light-desktop.jpg" alt=""/>
+                    <img class="project--image " 
+                    sizes=" 
+                        (min-width:576px) 300px,
+                        (min-width:415px) 265px,
+                        200px"
+                    srcset="
+                    ./Frontend-mentor/Todo-app/Screenshot-dark-mobile-srcset/Screenshot-dark-mobile_cqk0ma_c_scale,w_70.png 70w,
+                    ./Frontend-mentor/Todo-app/Screenshot-dark-mobile-srcset/Screenshot-dark-mobile_cqk0ma_c_scale,w_346.png 346w,
+                    ./Frontend-mentor/Todo-app/Screenshot-dark-mobile-srcset/Screenshot-dark-mobile_cqk0ma_c_scale,w_537.png 537w,
+                    ./Frontend-mentor/Todo-app/Screenshot-dark-mobile-srcset/Screenshot-dark-mobile_cqk0ma_c_scale,w_683.png 683w,
+                    ./Frontend-mentor/Todo-app/Screenshot-dark-mobile-srcset/Screenshot-dark-mobile_cqk0ma_c_scale,w_730.png 730w"
+                    src="./Frontend-mentor/Todo-app/Screenshot-dark-mobile.jpg" alt=""/>
+                    <img class="project--image " 
+                    sizes=" 
+                        (min-width:576px) 300px,
+                        (min-width:415px) 265px,
+                        200px"
+                    srcset="
+                    ./Frontend-mentor/Todo-app/Screenshot-light-mobile-srcset/Screenshot-light-mobile_u5cgdw_c_scale,w_70.png 70w,
+                    ./Frontend-mentor/Todo-app/Screenshot-light-mobile-srcset/Screenshot-light-mobile_u5cgdw_c_scale,w_311.png 311w,
+                    ./Frontend-mentor/Todo-app/Screenshot-light-mobile-srcset/Screenshot-light-mobile_u5cgdw_c_scale,w_475.png 475w,
+                    ./Frontend-mentor/Todo-app/Screenshot-light-mobile-srcset/Screenshot-light-mobile_u5cgdw_c_scale,w_608.png 608w,
+                    ./Frontend-mentor/Todo-app/Screenshot-light-mobile-srcset/Screenshot-light-mobile_u5cgdw_c_scale,w_730.png 730w"
+                    src="./Frontend-mentor/Todo-app/Screenshot-light-mobile.jpg" alt=""/>
                 </div>
                 <div class="buttons--change-project">
                     <button class="change-project prev-pic btn">Previous</button>

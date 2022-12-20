@@ -62,8 +62,8 @@ document.addEventListener('click', event =>{
         if (event.target.closest('div') == pictureButtons){
             if (imageClicked.nextElementSibling){
                 imageClicked = imageClicked.nextElementSibling
-                let imageSrc = imageClicked.getAttribute('src')
-                pictureModal.firstElementChild.setAttribute('src', imageSrc)
+                let imageSrc = imageClicked.getAttribute('srcset')
+                pictureModal.firstElementChild.setAttribute('srcset', imageSrc)
             }
         }
         // if picture arrow click on the main page
@@ -80,8 +80,8 @@ document.addEventListener('click', event =>{
         if (event.target.closest('div') == pictureButtons){
             if (imageClicked.previousElementSibling){
                 imageClicked = imageClicked.previousElementSibling
-                let imageSrc = imageClicked.getAttribute('src')
-                pictureModal.firstElementChild.setAttribute('src', imageSrc)
+                let imageSrc = imageClicked.getAttribute('srcset')
+                pictureModal.firstElementChild.setAttribute('srcset', imageSrc)
             }
         }
         // if picture arrow click on the main page
@@ -105,9 +105,9 @@ document.addEventListener('click', event =>{
             let projectImages = picturesArea.querySelectorAll('.project--image')
             projectImages.forEach(image =>{
                 if (event.target == image){
-                    let imageSrc = image.getAttribute('src') 
+                    let imageSrc = image.getAttribute('srcset') 
                     imageClicked = image
-                    pictureModal.firstElementChild.setAttribute('src', imageSrc)
+                    pictureModal.firstElementChild.setAttribute('srcset', imageSrc)
                     pictureModal.classList.remove('hidden')
                 }
             })
