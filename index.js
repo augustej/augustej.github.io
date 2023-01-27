@@ -9,6 +9,10 @@ const pictureModal = document.querySelector('.picture-modal')
 const closePictureBtn = document.querySelector('.close-picture')
 let imageClicked
 
+let currentYearField = document.querySelector(".year")
+let year = new Date().getFullYear()
+currentYearField.innerText = year + " "
+
 document.addEventListener('click', event =>{
 
     // modal for cards in education & experience
