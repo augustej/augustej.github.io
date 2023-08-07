@@ -1,4 +1,4 @@
-# Auguste Janickaite - My Portfolio 
+# Auguste Stankiene - My Portfolio
 
 - The code was written by the author.
 
@@ -31,7 +31,7 @@ Users should be able to:
 
 - Live Site URL: (https://augustej.github.io)
 
-## Author - Auguste Janickaite
+## Author - Auguste Stankiene
 
 - You can check out my Frontend Mentor account.
 - Frontend Mentor - [@augustej](https://www.frontendmentor.io/profile/augustej)
