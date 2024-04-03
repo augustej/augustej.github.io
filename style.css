@@ -219,7 +219,7 @@ h2 {
 
 /* education and experience */
 
-.education--container {
+.experience--container {
   background-color: var(--dkgrey);
   padding: 2rem 4rem;
   position: relative;
@@ -248,23 +248,6 @@ h2 {
   right: 7%;
   border-right: none;
   border-radius: 20px 0 0 20px;
-}
-
-.line3 {
-  top: 555px;
-  left: -58%;
-  right: 7%;
-  border-right: none;
-  border-radius: 20px 0 0 20px;
-  width: 25%;
-}
-
-.line4 {
-  top: 445px;
-  left: 7%;
-  right: 0;
-  border-left: none;
-  border-radius: 0 20px 20px 0;
 }
 
 .education--cards {
@@ -596,7 +579,7 @@ footer {
     font-size: 0.9em;
   }
   .home--container,
-  .education--container,
+  .experience--container,
   .projects--container {
     margin-top: 1rem;
     padding: 1.5rem 2.5rem;
@@ -620,7 +603,7 @@ footer {
     box-shadow: 1px 1px 2px black;
   }
   .home--container,
-  .education--container,
+  .experience--container,
   .projects--container {
     margin-top: 1rem;
     padding: 1rem 2rem;
@@ -638,7 +621,7 @@ footer {
   .portfolio-pic {
     clip-path: polygon(0% 0%, 100% 0%, 300px 315px, 130px 412px, 0px 340px);
   }
-  .education--container h2,
+  .experience--container h2,
   .projects--container h2 {
     padding: 2.5rem 0;
     margin: 0;

@@ -1,5 +1,5 @@
 const cards = document.querySelectorAll('.card')
-const cardsArea = document.querySelector('#education')
+const cardsArea = document.querySelector('#experience')
 const modal = document.querySelector('.modal')
 const closeModal = document.querySelector('.close-modal')
 const nav = document.querySelector('.navigation')
